@@ -26,7 +26,34 @@
   <title>
     Sricharan Koride
   </title>
-
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #0073b1; /* LinkedIn blue */
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn.github {
+            background-color: #333; /* GitHub black */
+        }
+        .btn.email {
+            background-color: #D44638; /* Gmail red */
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .icon {
+            font-size: 18px;
+        }
+    </style>
   <meta name="description" content="Graduate Student at University of Southern California">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="PHTML/CSS | Java | C | Python | SQL | JavaScript | Typescript | Groovy | Angular | AngularJS | Spring framework | Jenkins | WebLogic" />
@@ -213,15 +240,21 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
+          The quickest way to reach out to
           me is via an email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:koride@usc.edu" class="btn email">
+            <i class="fas fa-envelope icon"></i> koride@usc.edu
+        </a>
+    
+        <a href="https://github.com/codejunkie1609" class="btn github" target="_blank">
+            <i class="fab fa-github icon"></i> GitHub
+        </a>
+    
+        <a href="https://www.linkedin.com/in/sricharan-koride" class="btn" target="_blank">
+            <i class="fab fa-linkedin icon"></i> LinkedIn
+        </a>
       </div>
     </div>
   </section>
