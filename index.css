@@ -75,7 +75,7 @@ body {
     background: var(--black) url('images/dark-space.avif') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.7; /* Adjust opacity if needed */
+    opacity: 0.9; /* Adjust opacity if needed */
 }
 
 
