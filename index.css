@@ -72,9 +72,12 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
-    overflow-x: hidden;
+    background: var(--black) url('images/image.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9; /* Adjust opacity if needed */
 }
+
 
 .row {
     max-width: var(--container-max-width);
