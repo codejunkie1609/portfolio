@@ -107,8 +107,44 @@
       <div class="row">
         <h2>My Work</h2>
         <div class="work__boxes">
-
+  
           <!-- Each div with the work__box class is a project. -->
+          <div class="work__box">
+              <div class="work__text">
+                <h3>SmartDoc Finder: A Self-Hosted RAG Search Engine</h3>
+                <p>
+                  A complete, privacy-first Retrieval-Augmented Generation (RAG) system built from the ground up to answer complex questions using a private collection of documents. The project is architected as a full-stack, event-driven microservices application, containerized with Docker Compose for seamless one-command startup. It features a sophisticated 3-stage pipeline that combines hybrid search (Apache Lucene + FAISS), a cross-encoder re-ranker for relevance, and a locally-hosted LLM (via Ollama) to generate accurate, verifiable answers while ensuring 100% data privacy.
+                </p>
+                <ul class="work__list">
+                  <li>Java</li>
+                  <li>Spring Boot</li>
+                  <li>Python</li>
+                  <li>FastAPI</li>
+                  <li>Next.js / React</li>
+                  <li>Docker</li>
+                  <li>RabbitMQ</li>
+                  <li>PostgreSQL</li>
+                  <li>Apache Lucene</li>
+                  <li>FAISS</li>
+                  <li>Ollama</li>
+                </ul>
+            
+                <div class="work__links">
+                  <a href="https://github.com/codejunkie1609/smartdoc-finder" title="View Source Code" target="_blank">
+                    <!-- Make sure this path to your GitHub icon is correct -->
+                    <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+                  <!-- You can add a live demo link here if you deploy it -->
+                  <!-- <a href="#" title="View Live Demo" target="_blank">
+                    <img src="./images/external-link.svg" class="work__code" alt="Live Demo">
+                  </a> -->
+                </div>
+              </div>
+              <div class="work__image-box">
+                <!-- Make sure to replace this with a screenshot of your project -->
+                <img src="./images/smartdoc-finder-project.jpg" class="work__image" alt="SmartDoc Finder Project" />
+              </div>
+          </div>
 
           <div class="work__box">
             <div class="work__text">
@@ -139,7 +175,7 @@
               <img src="./images/imageclassification.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-          <div class="work__box">
+<!--           <div class="work__box">
             <div class="work__text">
               <h3>CSC Grameen-E Works</h3>
               <p>
@@ -162,8 +198,8 @@
             <div class="work__image-box">
               <img src="./images/grameen.png" class="work__image" />
             </div>
-          </div>
-          <div class="work__box">
+          </div> -->
+<!--           <div class="work__box">
             <div class="work__text">
             <h3>Speech Emotion Recognition with Librosa</h3>
             <p>
@@ -193,7 +229,7 @@
             <div class="work__image-box">
               <img src="./images/SER.png" class="work__image" />
             </div>
-          </div>
+          </div> -->
         
         </div>
 
