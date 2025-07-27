@@ -1,405 +1,299 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Sricharan Koride
-  </title>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <style>
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 15px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            color: white;
-            background-color: #0073b1; /* LinkedIn blue */
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn.github {
-            background-color: #333; /* GitHub black */
-        }
-        .btn.email {
-            background-color: #D44638; /* Gmail red */
-        }
-        .btn:hover {
-            opacity: 0.8;
-        }
-        .icon {
-            font-size: 18px;
-        }
-       
-    </style>
-  <meta name="description" content="Graduate Student at University of Southern California">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="PHTML/CSS | Java | C | Python | SQL | JavaScript | Typescript | Groovy | Angular | AngularJS | Spring framework | Jenkins | WebLogic" />
-  <link rel="stylesheet" href="index.css" />
+    <title>
+    Sricharan Koride
+  </title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #0073b1; /* LinkedIn blue */
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn.github {
+            background-color: #333; /* GitHub black */
+        }
+        .btn.email {
+            background-color: #D44638; /* Gmail red */
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .icon {
+            font-size: 18px;
+        }
+        .work__code-restriction {
+          font-style: italic;
+          font-size: 0.9em;
+          color: #555;
+          margin-top: 15px;
+        }
+    </style>
+  <meta name="description" content="Graduate Student at University of Southern California">
+    <meta name="keywords" content="PHTML/CSS | Java | C | Python | SQL | JavaScript | Typescript | Groovy | Angular | AngularJS | Spring framework | Jenkins | WebLogic" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
-  <!-- ***** Header ***** -->
+    <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#papers" class="nav__link">Publication</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+                    <span>Sricharan Koride</span>
+        </h1>
+                <p>👋 Hey there! Hey there! I'm Sricharan, a CS grad student at USC and a Computer Science undergrad from 
+          CVR College of Engineering. Before diving into my master's, I spent two years at Accolite Digital as a 
+          full-stack software engineer, building cool and scalable solutions. I love solving tricky problems, writing 
+          clean code, and making tech work smarter. If you're into great software and good conversations, let’s connect! 🚀</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#papers" class="nav__link">Publication</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-          
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Sricharan Koride</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>👋 Hey there! Hey there! I'm Sricharan, a CS grad student at USC and a Computer Science undergrad from 
-          CVR College of Engineering. Before diving into my master's, I spent two years at Accolite Digital as a 
-          full-stack software engineer, building cool and scalable solutions. I love solving tricky problems, writing 
-          clean code, and making tech work smarter. If you're into great software and good conversations, let’s connect! 🚀</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
+  <main role="main">
 
-  <main role="main">
+        <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+  
+                    <div class="work__box">
+              <div class="work__text">
+                <h3>SmartDoc Finder: A Self-Hosted RAG Search Engine</h3>
+                <p>
+                  A complete, privacy-first Retrieval-Augmented Generation (RAG) system built from the ground up to answer complex questions using a private collection of documents. The project is architected as a full-stack, event-driven microservices application, containerized with Docker Compose for seamless one-command startup. It features a sophisticated 3-stage pipeline that combines hybrid search (Apache Lucene + FAISS), a cross-encoder re-ranker for relevance, and a locally-hosted LLM (via Ollama) to generate accurate, verifiable answers while ensuring 100% data privacy.
+                </p>
+                <ul class="work__list">
+                  <li>Java</li>
+                  <li>Spring Boot</li>
+                  <li>Python</li>
+                  <li>FastAPI</li>
+                <li>Next.js / React</li>
+                  <li>Docker</li>
+                  <li>RabbitMQ</li>
+                  <li>PostgreSQL</li>
+                  <li>Apache Lucene</li>
+                  <li>FAISS</li>
+                  <li>Ollama</li>
+                </ul>
+            
+                <div class="work__links">
+                  <a href="https://github.com/codejunkie1609/smartdoc-finder" title="View Source Code" target="_blank">
+                                        <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  </a>
+                                                    </div>
+              </div>
+              <div class="work__image-box">
+                                <img src="./images/smartdoc-finder-project.png" class="work__image" alt="SmartDoc Finder Project" />
+              </div>
+          </div>
 
-    <!-- ***** Work ***** -->
+                    <div class="work__box">
+            <div class="work__text">
+              <h3>Weenix: A UNIX-Like Operating System</h3>
+              <p>
+                Engineered the core kernel of a UNIX-like OS from scratch, implementing robust modules for process and thread management, scheduling, and thread-safe synchronization using mutexes. Developed a flexible virtual file system (VFS) with support for multiple underlying file systems (RamFS, S5FS), providing a unified interface for all file operations. Designed and built a virtual memory manager to handle user address spaces and system calls like fork(), read(), and write(), enabling efficient and protected user process execution.
+              </p>
+              <ul class="work__list">
+                <li>C</li>
+                <li>Operating Systems</li>
+                <li>Kernel Development</li>
+              </ul>
+              <div class="work__links">
+                <p class="work__code-restriction">
+                  Source code is private due to academic policy but can be provided upon request.
+                </p>
+              </div>
+            </div>
+            <div class="work__image-box">
+                            <img src="./images/weenix-project.png" class="work__image" alt="Weenix OS Project" />
+            </div>
+          </div>
+                    <div class="work__box">
+            <div class="work__text">
+              <h3>Image Classification Using Transfer Learning</h3>
+              <p>
+                This project builds an image classifier using transfer learning with pre-trained models like ResNet50, EfficientNetB0, and VGG16. It fine-tunes only the final layer while freezing earlier layers to extract meaningful features. Data augmentation (cropping, rotation, flipping) enhances generalization, and the model is trained with ReLU activation, batch normalization, dropout, and ADAM optimizer for at least 50 epochs with early stopping. The goal is to create a robust classifier optimized for small datasets using state-of-the-art deep learning techniques.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>Keras</li>
+                <li>PyTorch</li>
+                <li>OpenCV</li>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Scikit-learn</li>
+            </ul>
 
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-  
-          <!-- Each div with the work__box class is a project. -->
-          <div class="work__box">
-              <div class="work__text">
-                <h3>SmartDoc Finder: A Self-Hosted RAG Search Engine</h3>
-                <p>
-                  A complete, privacy-first Retrieval-Augmented Generation (RAG) system built from the ground up to answer complex questions using a private collection of documents. The project is architected as a full-stack, event-driven microservices application, containerized with Docker Compose for seamless one-command startup. It features a sophisticated 3-stage pipeline that combines hybrid search (Apache Lucene + FAISS), a cross-encoder re-ranker for relevance, and a locally-hosted LLM (via Ollama) to generate accurate, verifiable answers while ensuring 100% data privacy.
-                </p>
-                <ul class="work__list">
-                  <li>Java</li>
-                  <li>Spring Boot</li>
-                  <li>Python</li>
-                  <li>FastAPI</li>
-                  <li>Next.js / React</li>
-                  <li>Docker</li>
-                  <li>RabbitMQ</li>
-                  <li>PostgreSQL</li>
-                  <li>Apache Lucene</li>
-                  <li>FAISS</li>
-                  <li>Ollama</li>
-                </ul>
-            
-                <div class="work__links">
-                  <a href="https://github.com/codejunkie1609/smartdoc-finder" title="View Source Code" target="_blank">
-                    <!-- Make sure this path to your GitHub icon is correct -->
-                    <img src="./images/github.svg" class="work__code" alt="GitHub">
-                  </a>
-                  <!-- You can add a live demo link here if you deploy it -->
-                  <!-- <a href="#" title="View Live Demo" target="_blank">
-                    <img src="./images/external-link.svg" class="work__code" alt="Live Demo">
-                  </a> -->
-                </div>
-              </div>
-              <div class="work__image-box">
-                <!-- Make sure to replace this with a screenshot of your project -->
-                <img src="./images/smartdoc-finder-project.png" class="work__image" alt="SmartDoc Finder Project" />
-              </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Image Classification Using Transfer Learning</h3>
-              <p>
-                This project builds an image classifier using transfer learning with pre-trained models like ResNet50, EfficientNetB0, and VGG16. It fine-tunes only the final layer while freezing earlier layers to extract meaningful features. Data augmentation (cropping, rotation, flipping) enhances generalization, and the model is trained with ReLU activation, batch normalization, dropout, and ADAM optimizer for at least 50 epochs with early stopping. The goal is to create a robust classifier optimized for small datasets using state-of-the-art deep learning techniques.
-              </p>
-              <ul class="work__list">
-                <li>Python</li>
-                <li>TensorFlow</li>
-                <li>Keras</li>
-                <li>PyTorch</li>
-                <li>OpenCV</li>
-                <li>NumPy</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
-                <li>Scikit-learn</li>
-            </ul>
-
-              <div class="work__links">
-              
-                <a href="https://github.com/codejunkie1609/Image-classification-using-Transfer-Learning/tree/main" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/imageclassification.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-<!--           <div class="work__box">
-            <div class="work__text">
-              <h3>CSC Grameen-E Works</h3>
-              <p>
-                Developed during my undergrad, this is the user module of a mobile app that enables users to book a host of services in rural areas, 
-                developed pursuant to Digital India's mission of expanding internet connectivity to everyone.
-              </p>
-              <ul class="work__list">
-                <li>Android Studio</li>
-                <li>Java</li>
-                
-            </ul>
-  
-              <div class="work__links">
-              
-                <a href="https://github.com/codejunkie1609/ServiceProvider" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/grameen.png" class="work__image" />
-            </div>
-          </div> -->
-<!--           <div class="work__box">
-            <div class="work__text">
-            <h3>Speech Emotion Recognition with Librosa</h3>
-            <p>
-              Speech Emotion Recognition with Librosa was developed as a mini-project during undergraduate 
-              studies at CVR College of Engineering. The project focuses on recognizing human emotions from 
-              speech using machine learning techniques. It extracts features from audio files, and classifies emotions like happiness,
-              sadness, anger, and fear. The model is trained on the Ryerson Audio-Visual Database of Emotional
-              Speech and Song (RAVDESS) dataset and utilizes a Multi-Layer Perceptron (MLP) classifier for 
-              emotion prediction. The system includes a Flask-based web interface, allowing users to upload 
-              an audio file and receive a predicted emotion label in real time.
-            </p>
-            <ul class="work__list">
-              <li>Python</li>
-              <li> Librosa</li>
-              <li>Scikit-Learn</li>
-              <li>NumPy</li>
-              <li>HTML5, CSS, Bootstrap</li>
-              <li>Pickle</li>
-              <li>Soundfile</li>
-          </ul>
-            <div class="work__links">
-              <a href="https://drive.google.com/file/d/1C92odhoEon7teATQU6pyZpntzzoTMaMp/view?usp=sharing" title="View Documentation" target="_blank">
-                <img src="./images/documentation.png" class="work__code" alt="GitHub">
-              </a>
-            </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/SER.png" class="work__image" />
-            </div>
-          </div> -->
-        
-        </div>
+              <div class="work__links">
+              
+                <a href="https://github.com/codejunkie1609/Image-classification-using-Transfer-Learning/tree/main" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/imageclassification.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        
+        </div>
 
 
- 
-        </div>
-      </div>
-    </section>
+ 
+        </div>
+      </div>
+    </section>
 
-    <!-- ***** Papers ***** -->
+        <section class="work" id="papers">
+      <div class="row">
+        <h2>Academic Papers and Publications</h2>
+      
+          <div class="work__boxes">
+            
+          <div class="work__box">
+            <div class="work__text">
+            <h3>A Study of Post-Quantum Cryptopgraphy in TLS Integration</h3>
+            <p>
+              As part of CSCI-520 Security Systems course at USC, I authored this survey paper that 
+              explores various efforts to integrate Post-Quantum Cryptopgraphic algorithms into TLS 1.3
+              to safeguard it from quantum cryptanalytic attacks. This was praised by Professor Clifford
+              Neuman, a director at ISI as "an extremely well written and well organized paper on what 
+              is often a very confusing topic.  Good job."
+            </p>
+            <div class="work__links">
+              <a href="https://drive.google.com/file/d/1ikWfSK_ERzVXzPSkI2SnOpMzZ2WFC_tL/view?usp=sharing" class="link__text" target="_blank">
+                View Paper <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/codejunkie1609/CSCI-530-Research-Paper-" target="_blank">
+                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+              </a>
+            </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Practical-Advice-for-PQC-Migration-for-TLS-1.3.png" class="work__image" />
+            </div>
+          </div>
 
-    <section class="work" id="papers">
-      <div class="row">
-        <h2>Academic Papers and Publications</h2>
-      
-          <div class="work__boxes">
-            
-          <div class="work__box">
-            <div class="work__text">
-            <h3>A Study of Post-Quantum Cryptopgraphy in TLS Integration</h3>
-            <p>
-              As part of CSCI-520 Security Systems course at USC, I authored this survey paper that 
-              explores various efforts to integrate Post-Quantum Cryptopgraphic algorithms into TLS 1.3
-              to safeguard it from quantum cryptanalytic attacks. This was praised by Professor Clifford
-              Neuman, a director at ISI as "an extremely well written and well organized paper on what 
-              is often a very confusing topic.  Good job."
-            </p>
-            <div class="work__links">
-              <a href="https://drive.google.com/file/d/1ikWfSK_ERzVXzPSkI2SnOpMzZ2WFC_tL/view?usp=sharing" class="link__text" target="_blank">
-                View Paper <span>&rarr;</span>
-              </a>
-              <a href="https://github.com/codejunkie1609/CSCI-530-Research-Paper-" target="_blank">
-                <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-              </a>
-            </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Practical-Advice-for-PQC-Migration-for-TLS-1.3.png" class="work__image" />
-            </div>
-          </div>
+          </div>
+          
+          
+          
+          
+          
+      </div>
+    </section>
 
-<!--           <div class="work__box">
-            <div class="work__text">
-            <h3>Color Identification System for Visually Impaired People</h3>
-            <p>
-              Developed as part of our undergraduate major project, this system helps visually impaired 
-              individuals identify colors independently. The app
-              detects colors in real-time from a live camera feed and provides both visual and audio feedback.
-              It features color detection (identifying the color of a selected point) and color search 
-              (highlighting all areas with a specific color). Built for accessibility, the project was 
-              published in the International Journal of Scientific Engineering and Applied Science (IJSEAS) 
-              and has potential applications in assistive technology, object tracking, and automation.
-            </p>
-            <ul class="work__list">
-              <li>Python</li>
-              <li>NumPy</li>
-              <li>Pandas</li>
-              <li>Kivy</li>
-              <li>OpenCV</li>
-          </ul>
-            <div class="work__links">
-              <a href="https://ijseas.com/volume8/v8i5/IJSEAS202205122.pdf" target="_blank" class="link__text">
-                Visit IJSEAS <span>&rarr;</span>
-              </a>
-              <a href="https://drive.google.com/file/d/1iIihJF9kleln3rq-zdwRdnq6rG3GHQ9S/view?usp=sharing" title="View Documentation" target="_blank">
-                <img src="./images/documentation.png" class="work__code" alt="GitHub">
-              </a>
-            </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/coloridentification.png" class="work__image" />
-            </div>
-          </div> -->
-          </div>
-          
-          
-          
-          
-          
-      </div>
-    </section>
+        <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+                        <p>
+              Hey there! I'm Sricharan, a full-stack developer who thrives on problem-solving, writing clean code, 
+              and making tech work smarter—not harder. A self-starter by nature, I love diving deep into complex 
+              challenges. Beyond code, you’ll find me sketching, clicking random artifacts on the streets and 
+              skies, roaming ancient temples, decoding geopolitical dramas, stargazing, or debating historical events. 
+              I have a keen interest in comparative linguistics and Indian law—because why stop at debugging software
+              when you can debug history and legal systems too? If you're looking for someone who can solve problems, 
+              build great software, and throw in a well-timed history fact, we should definitely connect
+            </p>
+                        <a href="https://docs.google.com/document/d/1PG-pRo8rnHXTs84-pvqpkBQd1y06lu44rQyiNGAbKeU/edit?usp=sharing" class="btn" target="_blank">My Resume</a>
+          </div>
 
-    <!-- ***** About ***** -->
+          <div class="about__photo-container">
+                        <img class="about__photo" src="./images/LANP.jpg" alt="" />
+            <caption>My click of a canopy in Angeles National forest, Los Angeles</caption>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Hey there! I'm Sricharan, a full-stack developer who thrives on problem-solving, writing clean code, 
-              and making tech work smarter—not harder. A self-starter by nature, I love diving deep into complex 
-              challenges. Beyond code, you’ll find me sketching, clicking random artifacts on the streets and 
-              skies, roaming ancient temples, decoding geopolitical dramas, stargazing, or debating historical events. 
-              I have a keen interest in comparative linguistics and Indian law—because why stop at debugging software
-              when you can debug history and legal systems too? If you're looking for someone who can solve problems, 
-              build great software, and throw in a well-timed history fact, we should definitely connect
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://docs.google.com/document/d/1PG-pRo8rnHXTs84-pvqpkBQd1y06lu44rQyiNGAbKeU/edit?usp=sharing" class="btn" target="_blank">My Resume</a>
-          </div>
+    
+  </main>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/LANP.jpg" alt="" />
-            <caption>My click of a canopy in Angeles National forest, Los Angeles</caption>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          The quickest way to reach out to
+          me is via an email.
+        </p>
+                <a href="mailto:koride@usc.edu" class="btn email">
+            <i class="fas fa-envelope icon"></i> koride@usc.edu
+        </a>
+      </div>
+    </div>
+  </section>
 
-    
-  </main>
+    <footer role="contentinfo" class="footer">
+    <div class="row">
+            <ul class="footer__social-links">
+        
+        <li class="footer__social-link-item">
+          <a target="_blank" href="https://github.com/codejunkie1609/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+       
+        <li class="footer__social-link-item">
+          <a target="_blank" href="https://www.linkedin.com/in/sricharan-koride/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
 
-  <!-- ***** Contact ***** -->
+            <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:koride@usc.edu" class="btn email">
-            <i class="fas fa-envelope icon"></i> koride@usc.edu
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        
-        <li class="footer__social-link-item">
-          <a target="_blank" href="https://github.com/codejunkie1609/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-       
-        <li class="footer__social-link-item">
-          <a target="_blank" href="https://www.linkedin.com/in/sricharan-koride/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
 
 </html>
